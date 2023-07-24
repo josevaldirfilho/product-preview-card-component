@@ -1,0 +1,154 @@
+:root {
+  --aurometal-saurus: #6C7289;
+  --gunmetal: #1C232B;
+  --deep-aquamarine: #3D8168;
+
+  --font-family-FR: "Fraunces";
+  --font-family-Mont: "Montserrat";
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--cream-bg, #F2EAE2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#image-perfume {
+  width: 343.697px;
+  border-radius: 10px 10px 0 0;
+}
+
+#container {
+  width: 343px;
+  height: 611px;
+  border-radius: 10px;
+  background: var(--pure-white, #FFF);
+  margin: 28px 16px;
+}
+
+#over-title {
+  color: var(--aurometal-saurus);
+
+  font-family: var(--font-family-Mont);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+#title {
+  color: var(--gunmetal);
+  font-family: var(--font-family-FR);
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-left: 25.5px;
+  margin-top: 12px;
+}
+
+#description {
+  margin-top: 16px;
+  margin-left: 24px;
+  font-family: var(--font-family-Mont);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  width: 295px;
+}
+
+#price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 24px;
+  width: 194px;
+  margin-left: 24.5px;
+}
+
+#price-1 {
+  margin-right: 19px;
+  color: var(--deep-aquamarine);
+
+  font-family: var(--font-family-FR);
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+#price-2 {
+  color: var(--aurometal-saurus);
+  font-family: var(--font-family-Mont);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 295px;
+  height: 48px;
+  border-radius: 8px;
+  background: var(--deep-aquamarine, #3D8168);
+
+  font-family: var(--font-family-Mont);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+button img {
+  margin-right: 11.61px;
+}
+
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+#info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width:1440px) {
+
+  body {
+    height: 100vh;
+  }
+
+
+  #container {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #image-perfume {
+    height: auto;
+    width: 337.694px;
+    border-radius: 10px 0 0 10px;
+  }
+}
