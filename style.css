@@ -26,6 +26,10 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
+#image-perfume-mobile {
+  display: none;
+}
+
 #container {
   width: 343px;
   height: 611px;
@@ -139,6 +143,20 @@ button img {
   }
 
 
+
+  #image-perfume {
+    display: none;
+  }
+
+
+  #image-perfume-mobile {
+    display: block;
+    width: 298px;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+  }
+
+
   #container {
     width: 600px;
     height: auto;
@@ -146,9 +164,33 @@ button img {
     flex-direction: row;
   }
 
-  #image-perfume {
-    height: auto;
-    width: 337.694px;
-    border-radius: 10px 0 0 10px;
+  #over-title {
+    margin-top: 32px;
   }
+
+  #title {
+    margin-top: 20px;
+    font-size: 32px;
+    width: 236px;
+
+  }
+
+  #description {
+    margin-top: 24px;
+    width: 237px;
+  }
+
+  #price-container {
+    margin-top: 29px;
+  }
+
+  button {
+    width: 236px;
+  }
+
+  #info-containter {
+    width: 100%;
+  }
+
+
 }
