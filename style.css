@@ -103,6 +103,8 @@ body {
 }
 
 button {
+  color: #FFF;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -117,6 +119,11 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+button:hover {
+  background: var(--deep-aquamarine-hover, #1A4032);
+  cursor: pointer;
 }
 
 button img {
